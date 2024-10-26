@@ -1,5 +1,7 @@
 # Neopixel Controller
 
+![alt text](https://github.com/EPL-Engineering/epl-neopixel/blob/main/Images/front-panel.png)
+
 [Windows installer](https://github.com/EPL-Engineering/epl-neopixel/releases/download/v1.0/Neopixel_Controller_1-0.exe)
 
 [Changelog](CHANGELOG.md)
