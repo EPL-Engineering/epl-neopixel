@@ -1,6 +1,6 @@
 # Neopixel Controller
 
-![alt text](https://github.com/EPL-Engineering/epl-neopixel/blob/main/Images/front-panel.png)
+![alt text](https://github.com/EPL-Engineering/epl-neopixel/blob/main/Images/front-panel.png?)
 
 [Windows installer](https://github.com/EPL-Engineering/epl-neopixel/releases/download/v1.0/Neopixel_Controller_1-0.exe)
 
@@ -13,7 +13,7 @@
 
 ## Programming Arduino
 1. Open Arduino IDE
-2. Load sketch
+2. The Neopixel Controller installer should install an Arduino sketch in the folder `Documents\Arduino\neopixel-controller`.
 3. Compile and upload
 
 Note: programming the Arduino should only need to be done once. Whenever it is powered up thereafter, it should automatically begin executing the Neopixel program.
