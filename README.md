@@ -13,7 +13,7 @@
 
 ## Programming Arduino
 1. Open Arduino IDE
-2. Load sketch
+2. The Neopixel Controller installer should have installed an Arduino sketch in the folder `Documents\Arduino\neopixel-controller`.
 3. Compile and upload
 
 Note: programming the Arduino should only need to be done once. Whenever it is powered up thereafter, it should automatically begin executing the Neopixel program.
