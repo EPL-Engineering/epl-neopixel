@@ -1,6 +1,7 @@
 # Neopixel Controller
 
 [Windows installer]()
+
 [Changelog](CHANGELOG.md)
 
 ## Installation
