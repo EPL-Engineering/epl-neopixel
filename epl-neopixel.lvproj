@@ -15,7 +15,6 @@
 		</Item>
 		<Item Name="CHANGELOG.md" Type="Document" URL="../CHANGELOG.md"/>
 		<Item Name="Neopixel Ring Lit.ico" Type="Document" URL="../Images/Neopixel Ring Lit.ico"/>
-		<Item Name="README.md" Type="Document" URL="../../epl-project-template/README.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
