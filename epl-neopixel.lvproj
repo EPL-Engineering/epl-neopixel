@@ -14,8 +14,8 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="CHANGELOG.md" Type="Document" URL="../CHANGELOG.md"/>
+		<Item Name="Neopixel Ring Lit.ico" Type="Document" URL="../Images/Neopixel Ring Lit.ico"/>
 		<Item Name="README.md" Type="Document" URL="../../epl-project-template/README.md"/>
-		<Item Name="window_application.ico" Type="Document" URL="../Images/window_application.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -47,15 +47,18 @@
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
 				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VerQueryValue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/VerQueryValue.vi"/>
+				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
+				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
 			<Item Name="Anything to String.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/Anything to String.vi"/>
 			<Item Name="Anything to Variant Database.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Anything to Variant Database.vi"/>
@@ -71,6 +74,7 @@
 			<Item Name="Get Variant Attribute With Defaults.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Get Variant Attribute With Defaults.vi"/>
 			<Item Name="GetFileVersion_Win.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/GetFileVersion_Win.vi"/>
 			<Item Name="Insert Reserved Error.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Insert Reserved Error.vi"/>
+			<Item Name="KColorSliders.xctl" Type="XControl" URL="../../epl-vi-lib/Utility VIs/Controls/KColorSliders/KColorSliders.xctl"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -105,14 +109,14 @@
 			<Item Name="Write Strings to File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Write Strings to File.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="EPL Project Template" Type="EXE">
+			<Item Name="Neopixel Controller" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{0821A0BC-3E1F-4874-B2DD-FF9B88D76F2D}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{0EE152FD-C5FF-4416-A2EC-83D4A67E8792}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{86D2AAB6-45FD-4AB0-9F6F-35A8EEFCA80B}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">EPL Project Template</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Neopixel Controller</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -121,8 +125,8 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3E808475-5AEF-4120-B60E-C07BF8B4ACF9}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">ProjectTemplate.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../Build/ProjectTemplate.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">NeopixelController.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Build/NeopixelController.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -130,23 +134,24 @@
 				<Property Name="Destination[1].path" Type="Path">../Build</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6528B999-D2B5-4303-8113-4451A04EB503}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Neopixel Ring Lit.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BFCEF5F6-87CA-4B9B-913B-FBB044AD8263}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CHANGELOG.md</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/CHANGELOG.md</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LV Source/epl-neopixel-controller.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Mass Eye &amp; Ear</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">EPL Project Template</Property>
-				<Property Name="TgtF_internalName" Type="Str">EPL Project Template</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Neopixel Controller</Property>
+				<Property Name="TgtF_internalName" Type="Str">Neopixel Controller</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 Mass Eye &amp; Ear</Property>
-				<Property Name="TgtF_productName" Type="Str">EPL Project Template</Property>
+				<Property Name="TgtF_productName" Type="Str">Neopixel Controller</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{6091E225-C7F4-434F-8E0A-71EF98DB45F7}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">ProjectTemplate.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">NeopixelController.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
