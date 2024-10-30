@@ -6,6 +6,12 @@
 
 [Changelog](CHANGELOG.md)
 
+## NI Prerequisites
+The software requires the following installations from National Instruments. All are free downloads, but registration may be required.
+1. [NI DAQmx 20.1](https://www.ni.com/en/support/downloads/drivers/download.ni-daq-mx.html#348669) or greater
+2. [LabVIEW 2020 32-bit Runtime Engine](https://www.ni.com/en/support/downloads/software-products/download.labview-runtime.html?srsltid=AfmBOorCUv3V_56cdQDMn3BNF-vT57k48-523YsmQve1thLfrV5-ecnW#369481)
+3. [NI-VISA](https://www.ni.com/en/support/downloads/drivers/download.ni-visa.html?srsltid=AfmBOopZtnEMzVJhmXjvn7esJthgh9vWX_lWwgG6HzHGwRQR9I_imjlV#442805)
+
 ## Installation
 1. Download and install the Arduino IDE (https://www.arduino.cc/en/software)
 2. Download and install the Adafruit Neopixel Library (https://github.com/adafruit/Adafruit_NeoPixel)
